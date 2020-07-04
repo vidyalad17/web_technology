@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>My Asiignment Website</title>
+
+    <!-- attach our stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- the header -->
+    <header>
+
+        <!-- our main logo -->
+        <a id="me" href="index.html">
+            <img src="me.jpg" alt="me">
+            <span>My Website</span>
+        </a>
+
+        <!-- main navigation links -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="file:///C:/Users/vidya/Desktop/WT_A1_190/signin.htm">Sign up</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Privacy</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+ <!-- the content -->
+    <main>
+
+        <!-- main content -->
+        <div class="main">
+       
+            <div class="main-content">
+                <h1 class="hero-title">Musafir</h1>
+                <p>Find your Happy Place Today!</p>
+
+                <a href="#">Learn More</a>
+                <a href="file:///C:/Users/vidya/Desktop/WT_A1_190/signin.htm">Sign Up</a>
+            </div>
+        </div>
+<!-- story section -->
+        <div class="section">
+        <div class="section1">
+
+            <div class="section-header">
+                <h2>Stories With Musafir</h2>
+            </div>
+
+            <div class="box">
+                <img src="tiger.jpg" alt="tiger">
+                <h5>Midnight at the Tiger's Nest.</h5>
+                <p>Facing wild beasts real and imagined on a hike to Bhutan's most famous monastery</p>
+            </div>
+
+            <div class="box">
+                <img src="beach.jpg" alt="beach">
+                <h5>A Night at the Maldives</h5>
+                <p>The sparkling so blue, so true beaches in Maldives are the perfect romantic spots</p>
+            </div>
+
+            <div class="box">
+                <img src="nightsky.jpg" alt="night sky">
+                <h5>Grand canyon  in Arizona</h5>
+                <p>The iconic Grand Canyon draws oohs and aahs from visitors perched at the edge of its towering cliffs.</p>
+            </div>
+
+        </div>
+        </div>
+
+        <!-section -->
+        <div class="section section2">
+        <div class="section1">
+
+            <div class="section-header">
+                <h2>What the people say</h2>
+            </div>
+
+            <div class="box2">
+                <div class="box2content">
+                    Had the best time with Musafir keep it up!.
+                </div>
+                <div class="author">
+                    <img src="arnav.jpg" alt="anand">
+                    <h5>Anand</h5>
+                    <span>Food Blooger</span>
+                </div>
+            </div>
+
+            <div class="box2">
+                <div class="box2content">
+                    Worthy of evry penny spent, had a fab time with Musafir!
+                </div>
+                <div class="author">
+                    <img src="gauri.jpg" alt="Ajmire">
+                    <h5>Ajmire</h5>
+                    <span>Travel Blooger</span>
+                </div>
+            </div>
+
+            <div class="box2">
+                <div class="box2content">
+                    Amazing and most extra ordinary vactions were possible because of Musafir.
+                </div>
+                <div class="author">
+                    <img src="atharv.jpg" alt="Gadre">
+                    <h5>Gadre</h5>
+                    <span>Photographer</span>
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+    </main>
+
+    <!-- the footer -->
+    <footer>
+        <img src="me.jpg" alt="Footer Logo">
+        <span>vidya lad 190<br>Copyright &copy; 2020-3000 </span>
+    </footer>
+
+</body>
+</html>

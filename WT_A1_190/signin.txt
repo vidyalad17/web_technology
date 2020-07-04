@@ -1,0 +1,27 @@
+<h2>SIGN UP</h3>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>blocks</title>
+  <link type="text/css" rel="stylesheet" href="brick.css">
+</head>
+<body>
+<div>
+  <form action="musafir.htm" method="post">
+    <label for="fname">Full Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="ename">Email-id</label>
+    <input type="text" id="ename" name="ename" placeholder="Your email-id is..">
+
+    <label for="pass">Password</label>
+    <input type="password" minlength="8" required id="pass" name="pass" placeholder="Your password is..">
+    
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
